@@ -1,0 +1,15 @@
+FROM node:latest
+
+RUN mkdir -p /usr/src/sample-backend
+
+COPY ../../dist/apps/sample-backend/* /usr/src/sample-backend
+
+WORKDIR /usr/src/sample-backend
+
+RUN yarn 
+
+CMD node ./main.js
+
+
+
+ 

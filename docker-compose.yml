@@ -1,0 +1,12 @@
+services:
+  sample-backend:
+    image: sample-backend
+    ports:
+      - "4041:4041"
+  
+
+  sample-communication:
+    image: sample-communication
+    ports:
+      - "4040:4040"
+  

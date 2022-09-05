@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "sample-analytics": "apps/sample-analytics",
+    "sample-backend": "apps/sample-backend",
+    "sample-communication": "apps/sample-communication"
+  }
+  
+}
